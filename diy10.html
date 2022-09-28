@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> zomato</title>
+        <style>
+            
+           
+            @media screen and (min-width :600px)
+              {
+             
+                .ob{
+                    
+               
+                    display: grid;
+                    grid-template-columns: 200px 200px 200px;
+                    gap: 10%;
+                    margin-left: 70px;
+                    width: 1100px;
+                    height: 100px;                    
+                } 
+            }
+            
+          
+               @media screen and (max-width:600px) {
+            .home{
+                background-image: url(./bg2.jpeg);
+                height: 800px;
+                       
+            }
+            
+         
+        }
+        @media screen and (min-width:695px)
+        {
+            .ob{
+                    
+               
+                    display: grid;
+                    grid-template-columns: 200px 200px;
+                    gap: 10%;
+                    margin-left: 70px;
+                    width: 1100px;
+                    height: 100px;                    
+               }
+            }
+            @media screen and (min-width:1000px)
+                        {
+            .ob{
+                    
+               
+                    display: grid;
+                    grid-template-columns: 200px 200px 200px;
+                    gap: 10%;
+                    margin-left: 70px;
+                    width: 1100px;
+                    height: 100px;                    
+                }  
+            }
+                @media screen and (max-width:800px) {
+                    .ip{
+                        margin-left: 130px;
+                        width: 500px;
+                        
+                    }
+        
+                }
+                @media screen and (max-width:500px) {
+                    .ip{
+                        margin-left: 10px;
+                        width: 500px;
+                        
+                    }
+        
+                }
+                    
+                
+                
+               
+        
+            
+            .home{
+                background-image: url(./bg2.jpeg);
+                background-repeat: no-repeat ;
+                height: 400px;
+                background-size: 100%;
+                text-align: right;
+                
+            }
+            .login{
+
+                text-align: center;
+                
+                border: transparent;
+                background: transparent;
+                color: white;
+                
+            }
+            .new{
+               
+                padding: 5px;
+                border:2px solid white;
+                background: transparent;
+                color: white;
+                margin: 20px;
+                
+            }
+            .h1{
+                position: relative;
+                top: 20%;
+                left: 50%;
+                background-color: white;
+                border: 2px solid white;
+                color: green;
+                padding: 1%;
+                text-align: center;
+                border-radius: 180%;
+                height: 40px;
+                width: 40px;
+
+            }
+            h1{
+                text-align: center;
+                position: relative;
+                color: white;
+                top: 15%;
+            }
+            .ip{
+                text-align: center;
+                margin-top: 70px ;
+                
+            }
+            .place{
+
+                top: 40px;
+                left: 0px;
+                         
+                height: 30px;
+                width: 250px;
+            }
+            .search{
+                
+                height: 30px;
+                width: 250px;
+                
+            }
+            
+           
+            .img{
+                position: relative;
+               top:1%;
+            }
+            article{
+                font-size: medium;
+                position: relative;
+                top:10%;
+                
+            }
+           
+            .p1{
+                font-size: small;
+                position: relative;
+                top: 8px;
+                right: 64px;
+                
+            }
+             .b1, .b2, .b3, .b4, .b5, .b6
+            {
+                
+                
+                height: 60px;
+                width: 250px;
+                box-shadow: 0 2px 0 3px whitesmoke;
+            }
+            .a1, .a2, .a3, .a4, .a5, .a6{
+                font-size: large;
+            }
+            .img2{
+                position: relative;
+               top:1%;
+            }
+           
+            .p2{
+                font-size: small;
+                position: relative;
+                top: 8px;
+                right: 40px;
+                
+            }
+           
+            .img3{
+                position: relative;
+               top:1%;
+            }
+           
+            .p3{
+                font-size: small;
+                position: relative;
+                top: 8px;
+                right: 46px;
+                
+            }
+
+            .img4{
+                position: relative;
+               top:1%;
+            }
+           
+            .p4{
+                font-size: small;
+                position: relative;
+                top: 8px;
+                right: 44px;
+                
+            }
+            
+            .img5{
+                position: relative;
+               top:1%;
+            }
+            .p5{
+                font-size: small;
+                position: relative;
+                top: 12px;
+                right: 38px;
+                
+            }
+           
+           
+           
+            .img6{
+                position: relative;
+               top:1%;
+            }
+            .p6{
+                font-size: small;
+                position: relative;
+                top: 12px;
+                right: 54px;
+                
+            }
+           
+            
+            .ob{
+                display: grid;
+                grid-template-rows: 100px 100px 100px 100px 100px;
+                margin-left: 70px ;
+            
+               
+            }
+            .ob>div
+            { 
+               
+                display: flex;
+                
+                
+                
+            }
+           .body{
+            
+            color: darkblue;
+            position: relative;
+            left: 20px;
+           }
+           h2{
+            
+            position: relative;
+            left: 70px;
+           }
+           .p0{
+            position: relative;
+            left: 70px;
+           }
+
+
+        </style>
+
+    </head>
+    <body>
+
+        <div class="home">
+            <button class="login">Login</button>
+
+            <button class="new">Create an account</button>
+
+            <h1 class="h1">e!</h1>
+            <h1>Find the best restaurants,cafes, and bars</h1>
+            <div class="ip">
+            <select id="place" class="place">
+                <option>coimbatore</option>
+                <option>mettupalayam</option>
+                <option>chennai</option>
+                <option>madurai</option>
+            </select>
+
+            <input type="search" class="search" placeholder="search for restaurants"/>
+        </div>
+
+
+        </div>
+        <div class="body">
+            <b><h2>Quick Searches</h2></b>
+            <p class="p0"> Discover restaurants by type of meal</p>
+           <div class="ob">
+               <div class="b1">
+                   <img src="./bf.jpg.JPG" class="img" height="60px" width="60px"/>
+                    <article class="a1">Breakfast</article>
+                   <p class="p1">start your day with a exlusive breakfast </p>
+                </div>
+                <div class="b2">
+                    <img src="./lunch.jpg.jpeg" class="img2" height="60px" width="60px"/>
+                    <article class="a2">Lunch</article>
+                    <p class="p2">start your day with a exlusive breakfast </p>
+                </div>
+                <div class="b3">
+                    <img src="./snack.jpg.jpeg" class="img3" height="60px" width="60px"/>
+                    <article class="a3">snacks</article>
+                    <p class="p3">start your day with a exlusive breakfast </p>
+                </div>
+                <div class="b4">
+                    <img src="./dinner.jpg" class="img4" height="60px" width="60px"/>
+                    <article class="a4">Dinner</article>
+                    <p class="p4">start your day with a exlusive breakfast </p>
+                </div>
+                <div class="b5">
+                    <img src="./drinks.jpg" class="img5" height="60px" width="60px"/>
+                    <article class="a5">drinks</article>
+                    <p class="p5">start your day with a exlusive breakfast </p>
+                </div>
+                <div class="b6">
+                    <img src="./nightlife.jpg" class="img6" height="60px" width="60px"/>
+                    <article class="a6">Nightlife</article>
+                    <p class="p6">start your day with a exlusive breakfast </p>
+                </div>
+           </div>
+
+        </div>
+    </body>
+</html>
